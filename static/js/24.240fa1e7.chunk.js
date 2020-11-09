@@ -1,0 +1,2 @@
+(this.webpackJsonphades_planner=this.webpackJsonphades_planner||[]).push([[24],{55:function(s,a,n){"use strict";n.r(a),a.default=n.p+"static/media/Stubborn_Roots.7a686490.png"}}]);
+//# sourceMappingURL=24.240fa1e7.chunk.js.map

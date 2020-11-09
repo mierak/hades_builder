@@ -1,0 +1,2 @@
+(this.webpackJsonphades_planner=this.webpackJsonphades_planner||[]).push([[70],{113:function(s,e,n){"use strict";n.r(e),e.default=n.p+"static/media/Pressure_Points.3b01820f.png"}}]);
+//# sourceMappingURL=70.e2d88f2f.chunk.js.map

@@ -1,0 +1,2 @@
+(this.webpackJsonphades_planner=this.webpackJsonphades_planner||[]).push([[36],{79:function(e,a,n){"use strict";n.r(a),a.default=n.p+"static/media/Different_League.ab4366ad.png"}}]);
+//# sourceMappingURL=36.2fd39215.chunk.js.map

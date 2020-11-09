@@ -1,0 +1,2 @@
+(this.webpackJsonphades_planner=this.webpackJsonphades_planner||[]).push([[57],{100:function(n,s,a){"use strict";a.r(s),s.default=a.p+"static/media/Slicing_Shot.b56c0d2d.png"}}]);
+//# sourceMappingURL=57.3c16b991.chunk.js.map
