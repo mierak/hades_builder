@@ -1,0 +1,2852 @@
+{
+	"boons": {
+		"aphrodite": {
+			"boons": [
+				{
+					"id": 0,
+					"god": "aphrodite",
+					"type": "attack",
+					"name": "Heartbreak Strike",
+					"description": "Your Attack deals more damage and inflicts Weak.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Attack Damage", "value": "+50%" },
+						{ "rarity": "rare", "description": "Attack Damage", "value": "+75%" },
+						{ "rarity": "epic", "description": "Attack Damage", "value": "+100%" },
+						{ "rarity": "heroic", "description": "Attack Damage", "value": "+125%" }
+					],
+					"image": "Heartbreak_Strike.png",
+					"prerequisites": []
+				},
+				{
+					"id": 1,
+					"god": "aphrodite",
+					"type": "special",
+					"name": "Heartbreak Flourish",
+					"description": "Your Special deals more damage and inflicts Weak.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Special Damage", "value": "+80%" },
+						{ "rarity": "rare", "description": "Special Damage", "value": "+120%" },
+						{ "rarity": "epic", "description": "Special Damage", "value": "+160%" },
+						{ "rarity": "heroic", "description": "Special Damage", "value": "200%" }
+					],
+					"image": "Heartbreak_Flourish.png",
+					"prerequisites": []
+				},
+				{
+					"id": 2,
+					"god": "aphrodite",
+					"type": "cast",
+					"name": "Crush Shot",
+					"description": "Your Cast is a wide, short-range blast that inflicts Weak.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "90" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "99" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "108" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "117" }
+					],
+					"image": "Crush_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 3,
+					"god": "aphrodite",
+					"type": "cast",
+					"name": "Passion Flare",
+					"description": "Your Cast damages foes around you and inflicts Weak.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "80" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "80" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "80" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "80" }
+					],
+					"image": "Crush_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 4,
+					"god": "aphrodite",
+					"type": "dash",
+					"name": "Passion Dash",
+					"description": "Your Dash inflicts damage where you end up, inflicting Weak.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Dash Damage", "value": "20" },
+						{ "rarity": "rare", "description": "Dash Damage", "value": "24" },
+						{ "rarity": "epic", "description": "Dash Damage", "value": "28" },
+						{ "rarity": "heroic", "description": "Dash Damage", "value": "32" }
+					],
+					"image": "Passion_Dash.png",
+					"prerequisites": []
+				},
+				{
+					"id": 5,
+					"god": "aphrodite",
+					"type": "call",
+					"name": "Aphrodite's Aid",
+					"description": "Your Call fires a seeking projectile that inflicts Charm.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Charm Duration", "value": "5 Sec." },
+						{ "rarity": "rare", "description": "TCharm DurationBD", "value": "5.5 Sec." },
+						{ "rarity": "epic", "description": "Charm Duration", "value": "6 Sec." },
+						{ "rarity": "heroic", "description": "Charm Duration", "value": "6.5 Sec." }
+					],
+					"image": "Aphrodites_Aid.png",
+					"prerequisites": []
+				},
+				{
+					"id": 6,
+					"god": "aphrodite",
+					"type": "boon",
+					"name": "Dying Lament",
+					"description": "When foes are slain, they damage nearby foes and inflict Weak.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Death Blast Damage", "value": "40" },
+						{ "rarity": "rare", "description": "Death Blast Damage", "value": "60" },
+						{ "rarity": "epic", "description": "Death Blast Damage", "value": "80" },
+						{ "rarity": "heroic", "description": "Death Blast Damage", "value": "100" }
+					],
+					"image": "Dying_Lament.png",
+					"prerequisites": []
+				},
+				{
+					"id": 7,
+					"god": "aphrodite",
+					"type": "boon",
+					"name": "Wave of Despair",
+					"description": "After you take damage, damage nearby foes and inflict Weak.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Revenge Damage", "value": "50" },
+						{ "rarity": "rare", "description": "Revenge Damage", "value": "75" },
+						{ "rarity": "epic", "description": "Revenge Damage", "value": "100" },
+						{ "rarity": "heroic", "description": "Revenge Damage", "value": "125" }
+					],
+					"image": "Wave_of_Despair.png",
+					"prerequisites": []
+				},
+				{
+					"id": 8,
+					"god": "aphrodite",
+					"type": "boon",
+					"name": "Different League",
+					"description": "Resist some damage from nearby foes' attacks.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Reduced Damage from Foes", "value": "10%" },
+						{ "rarity": "rare", "description": "Reduced Damage from Foes", "value": "12.5%" },
+						{ "rarity": "epic", "description": "Reduced Damage from Foes", "value": "15%" },
+						{ "rarity": "heroic", "description": "Reduced Damage from Foes", "value": "17.5%" }
+					],
+					"image": "Different_League.png",
+					"prerequisites": []
+				},
+				{
+					"id": 9,
+					"god": "aphrodite",
+					"type": "boon",
+					"name": "Life Affirmation",
+					"description": "Any {HEALTH} or {MAX_HEALTH} chamber rewards are worth more.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Reward Value", "value": "+30%" },
+						{ "rarity": "rare", "description": "Reward Value", "value": "+36%" },
+						{ "rarity": "epic", "description": "Reward Value", "value": "+42%" },
+						{ "rarity": "heroic", "description": "Reward Value", "value": "+48%" }
+					],
+					"image": "Life_Affirmation.png",
+					"prerequisites": []
+				},
+				{
+					"id": 10,
+					"god": "aphrodite",
+					"type": "boon",
+					"name": "Empty Inside",
+					"description": "Your Weak effects have a longer duration.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Weak Duration", "value": "+5 sec." },
+						{ "rarity": "rare", "description": "Weak Duration", "value": "+7.5 sec." },
+						{ "rarity": "epic", "description": "Weak Duration", "value": "+10 sec." },
+						{ "rarity": "heroic", "description": "Weak Duration", "value": "+12.5 sec." }
+					],
+					"image": "Empty_Inside.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 2, 0, 1]
+						}
+					]
+				},
+				{
+					"id": 11,
+					"god": "aphrodite",
+					"type": "boon",
+					"name": "Sweet Surrender",
+					"description": "Weak-afflicted foes are also more susceptible to damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Damage vs. Weak", "value": "+10%" },
+						{ "rarity": "rare", "description": "Damage vs. Weak", "value": "+15%" },
+						{ "rarity": "epic", "description": "Damage vs. Weak", "value": "+25%" },
+						{ "rarity": "heroic", "description": "Damage vs. Weak", "value": "+27%" }
+					],
+					"image": "Sweet_Surrender.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 2, 0, 1]
+						}
+					]
+				},
+				{
+					"id": 12,
+					"god": "aphrodite",
+					"type": "boon",
+					"name": "Broken Resolve",
+					"description": "Your Weak effects are more potent.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Weak Damage Reduction", "value": "+10%" },
+						{ "rarity": "rare", "description": "Weak Damage Reduction", "value": "+12.5%" },
+						{ "rarity": "epic", "description": "Weak Damage Reduction", "value": "+15%" },
+						{ "rarity": "heroic", "description": "Weak Damage Reduction", "value": "+17.5%" }
+					],
+					"image": "Broken_Resolve.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 2, 0, 1]
+						}
+					]
+				},
+				{
+					"id": 13,
+					"god": "aphrodite",
+					"type": "boon",
+					"name": "Blown Kiss",
+					"description": "Your Cast shoots farther and is stronger against undamaged foes.",
+					"extraStats": [
+						{ "rarity": "common", "description": "First-Hit Bonus Damage", "value": "+50%" },
+						{ "rarity": "rare", "description": "First-Hit Bonus Damage", "value": "+75%" },
+						{ "rarity": "epic", "description": "First-Hit Bonus Damage", "value": "+100%" },
+						{ "rarity": "heroic", "description": "First-Hit Bonus Damage", "value": "+125%" }
+					],
+					"image": "Blown_Kiss.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [2]
+						}
+					]
+				},
+				{
+					"id": 14,
+					"god": "aphrodite",
+					"type": "boon",
+					"name": "Unhealthy Fixation",
+					"description": "Your Weak effects also have a 15% chance to Charm foes.",
+					"extraStats": [{ "rarity": "Legendary", "description": "Charm Duration", "value": "4 Sec" }],
+					"image": "Unhealthy_Fixation.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 2, 0, 1]
+						},
+						{
+							"count": 1,
+							"ids": [10, 11, 12]
+						}
+					],
+					"legendary": true
+				}
+			]
+		},
+		"ares": {
+			"boons": [
+				{
+					"id": 22,
+					"god": "ares",
+					"type": "attack",
+					"name": "Curse of Agony",
+					"description": "Your Attack inflicts Doom.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Curse Damage", "value": "50" },
+						{ "rarity": "rare", "description": "Curse Damage", "value": "75" },
+						{ "rarity": "epic", "description": "Curse Damage", "value": "100" },
+						{ "rarity": "heroic", "description": "Curse Damage", "value": "125" }
+					],
+					"image": "Curse_of_Agony.png",
+					"prerequisites": []
+				},
+				{
+					"id": 23,
+					"god": "ares",
+					"type": "special",
+					"name": "Curse of Pain",
+					"description": "Your Special inflicts Doom.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Curse Damage", "value": "60" },
+						{ "rarity": "rare", "description": "Curse Damage", "value": "80" },
+						{ "rarity": "epic", "description": "Curse Damage", "value": "100" },
+						{ "rarity": "heroic", "description": "Curse Damage", "value": "120" }
+					],
+					"image": "Curse_of_Pain.png",
+					"prerequisites": []
+				},
+				{
+					"id": 24,
+					"god": "ares",
+					"type": "cast",
+					"name": "Slicing Shot",
+					"description": "Your Cast sends a Blade Rift hurling ahead.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Rift Damage per Hit", "value": "20" },
+						{ "rarity": "rare", "description": "Rift Damage per Hit", "value": "22" },
+						{ "rarity": "epic", "description": "Rift Damage per Hit", "value": "26" },
+						{ "rarity": "heroic", "description": "Rift Damage per Hit", "value": "28" }
+					],
+					"image": "Slicing_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 25,
+					"god": "ares",
+					"type": "cast",
+					"name": "Slicing Flare",
+					"description": "Your Cast sends a large Blade Rift hurling ahead for a brief time.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Rift Damage per Hit", "value": "30" },
+						{ "rarity": "rare", "description": "Rift Damage per Hit", "value": "n/a" },
+						{ "rarity": "epic", "description": "Rift Damage per Hit", "value": "n/a" },
+						{ "rarity": "heroic", "description": "Rift Damage per Hit", "value": "n/a" }
+					],
+					"image": "Slicing_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 26,
+					"god": "ares",
+					"type": "dash",
+					"name": "Blade Dash",
+					"description": "Your Dash creates a Blade Rift where you started.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Rift Damage per Hit", "value": "5" },
+						{ "rarity": "rare", "description": "Rift Damage per Hit", "value": "6" },
+						{ "rarity": "epic", "description": "Rift Damage per Hit", "value": "7" },
+						{ "rarity": "heroic", "description": "Rift Damage per Hit", "value": "8" }
+					],
+					"image": "Blade_Dash.png",
+					"prerequisites": []
+				},
+				{
+					"id": 27,
+					"god": "ares",
+					"type": "call",
+					"name": "Ares' Aid",
+					"description": "Your Call turns you into an Impervious Blade Rift for 1.2 Sec.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Rift Damage per Hit", "value": "30" },
+						{ "rarity": "rare", "description": "Rift Damage per Hit", "value": "37.5" },
+						{ "rarity": "epic", "description": "Rift Damage per Hit", "value": "45" },
+						{ "rarity": "heroic", "description": "Rift Damage per Hit", "value": "52.5" }
+					],
+					"image": "Ares_Aid.png",
+					"prerequisites": []
+				},
+				{
+					"id": 28,
+					"god": "ares",
+					"type": "boon",
+					"name": "Curse of Vengeance",
+					"description": "After you take damage, inflict Doom on surrounding foes.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Revenge Damage", "value": "90" },
+						{ "rarity": "rare", "description": "Revenge Damage", "value": "99" },
+						{ "rarity": "epic", "description": "Revenge Damage", "value": "108" },
+						{ "rarity": "heroic", "description": "Revenge Damage", "value": "117" }
+					],
+					"image": "Curse_of_Vengeance.png",
+					"prerequisites": []
+				},
+				{
+					"id": 29,
+					"god": "ares",
+					"type": "boon",
+					"name": "Urge to Kill",
+					"description": "Your Attack and Cast deal more damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Attack and Cast Damage", "value": "+8%" },
+						{ "rarity": "rare", "description": "Attack and Cast Damage", "value": "+10%" },
+						{ "rarity": "epic", "description": "Attack and Cast Damage", "value": "+12%" },
+						{ "rarity": "heroic", "description": "Attack and Cast Damage", "value": "+14%" }
+					],
+					"image": "Urge_to_Kill.png",
+					"prerequisites": []
+				},
+				{
+					"id": 30,
+					"god": "ares",
+					"type": "boon",
+					"name": "Battle Rage",
+					"description": "After slaying a foe, your next Attack or Special deals more damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Damage Bonus", "value": "+100%" },
+						{ "rarity": "rare", "description": "Damage Bonus", "value": "+150%" },
+						{ "rarity": "epic", "description": "Damage Bonus", "value": "+200%" },
+						{ "rarity": "heroic", "description": "Damage Bonus", "value": "+250%" }
+					],
+					"image": "Battle_Rage.png",
+					"prerequisites": []
+				},
+				{
+					"id": 31,
+					"god": "ares",
+					"type": "boon",
+					"name": "Blood Frenzy",
+					"description": "After using Death Defiance, deal more damage that encounter.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Damage Bonus", "value": "+20%" },
+						{ "rarity": "rare", "description": "Damage Bonus", "value": "+22%" },
+						{ "rarity": "epic", "description": "Damage Bonus", "value": "+24%" },
+						{ "rarity": "heroic", "description": "Damage Bonus", "value": "+26%" }
+					],
+					"image": "Blood_Frenzy.png",
+					"prerequisites": []
+				},
+				{
+					"id": 32,
+					"god": "ares",
+					"type": "boon",
+					"name": "Black Metal",
+					"description": "Your Blade Rift powers deal damage in a wider area.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Area of Effect", "value": "+20%" },
+						{ "rarity": "rare", "description": "Bonus Area of Effect", "value": "+22%" },
+						{ "rarity": "epic", "description": "Bonus Area of Effect", "value": "+24%" },
+						{ "rarity": "heroic", "description": "Bonus Area of Effect", "value": "+26%" }
+					],
+					"image": "Black_Metal.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [27, 26, 24, 25]
+						}
+					]
+				},
+				{
+					"id": 33,
+					"god": "ares",
+					"type": "boon",
+					"name": "Engulfing Vortex",
+					"description": "Your Blade Rift effects last longer and pull foes in.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Rift Duration", "value": "+0.2 Sec." },
+						{ "rarity": "rare", "description": "Rift Duration", "value": "+0.3 Sec." },
+						{ "rarity": "epic", "description": "Rift Duration", "value": "+0.5 Sec." },
+						{ "rarity": "heroic", "description": "Rift Duration", "value": "+0.54 Sec." }
+					],
+					"image": "Engulfing_Vortex.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [27, 26, 24, 25]
+						}
+					]
+				},
+				{
+					"id": 34,
+					"god": "ares",
+					"type": "boon",
+					"name": "Dire Misfortune",
+					"description": "Your Doom effects deal more damage when applied multiple times.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Damage per Curse", "value": "10" },
+						{ "rarity": "rare", "description": "Bonus Damage per Curse", "value": "12" },
+						{ "rarity": "epic", "description": "Bonus Damage per Curse", "value": "14" },
+						{ "rarity": "heroic", "description": "Bonus Damage per Curse", "value": "16" }
+					],
+					"image": "Dire_Misfortune.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [22, 23]
+						}
+					]
+				},
+				{
+					"id": 35,
+					"god": "ares",
+					"type": "boon",
+					"name": "Impending Doom",
+					"description": "Your Doom effects deal more damage, after +0.5 Sec.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Doom Damage", "value": "+60%" },
+						{ "rarity": "rare", "description": "Bonus Doom Damage", "value": "+66%" },
+						{ "rarity": "epic", "description": "Bonus Doom Damage", "value": "+72%" },
+						{ "rarity": "heroic", "description": "Bonus Doom Damage", "value": "+78%" }
+					],
+					"image": "Impending_Doom.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [22, 23, 28]
+						}
+					]
+				},
+				{
+					"id": 36,
+					"god": "ares",
+					"type": "boon",
+					"name": "Vicious Cycle",
+					"description": "Your Blade Rift effects deal more damage for each consecutive hit.",
+					"extraStats": [{ "rarity": "Legendary", "description": "Damage Increase per Hit", "value": "2" }],
+					"image": "Vicious_Cycle.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [32, 33]
+						}
+					],
+					"legendary": true
+				}
+			]
+		},
+		"artemis": {
+			"boons": [
+				{
+					"id": 44,
+					"god": "artemis",
+					"type": "attack",
+					"name": "Deadly Strike",
+					"description": "Your Attack is stronger, with +15% chance to deal Critical damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Attack Damage", "value": "+20%" },
+						{ "rarity": "rare", "description": "Attack Damage", "value": "+30%" },
+						{ "rarity": "epic", "description": "Attack Damage", "value": "+40%" },
+						{ "rarity": "heroic", "description": "Attack Damage", "value": "+50%" }
+					],
+					"image": "Deadly_Strike.png",
+					"prerequisites": []
+				},
+				{
+					"id": 45,
+					"god": "artemis",
+					"type": "special",
+					"name": "Deadly Flourish",
+					"description": "Your Special is stronger, with +20% chance to deal Critical Damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Special Damage", "value": "+40%" },
+						{ "rarity": "rare", "description": "Special Damage", "value": "+60%" },
+						{ "rarity": "epic", "description": "Special Damage", "value": "+80%" },
+						{ "rarity": "heroic", "description": "Special Damage", "value": "+100%" }
+					],
+					"image": "Deadly_Flourish.png",
+					"prerequisites": []
+				},
+				{
+					"id": 46,
+					"god": "artemis",
+					"type": "cast",
+					"name": "True Shot",
+					"description": "Your Cast seeks foes, with a 10% chance to deal Critical damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "70" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "80" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "90" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "100" }
+					],
+					"image": "True_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 47,
+					"god": "artemis",
+					"type": "cast",
+					"name": "Hunter's Flare",
+					"description": "Your Cast damages foes around you, with a 10% Critical chance.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "55" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "n/a" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "n/a" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "n/a" }
+					],
+					"image": "True_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 48,
+					"god": "artemis",
+					"type": "dash",
+					"name": "Hunter Dash",
+					"description": "Your Dash-Strike deals more damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Dash Attack Damage", "value": "+50%" },
+						{ "rarity": "rare", "description": "Dash Attack Damage", "value": "+75%" },
+						{ "rarity": "epic", "description": "Dash Attack Damage", "value": "+100%" },
+						{ "rarity": "heroic", "description": "Dash Attack Damage", "value": "+125%" }
+					],
+					"image": "Hunter_Dash.png",
+					"prerequisites": []
+				},
+				{
+					"id": 49,
+					"god": "artemis",
+					"type": "call",
+					"name": "Artemis' Aid",
+					"description": "Your Call fires a seeking arrow with +35% Critical chance.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Arrow Damage", "value": "100" },
+						{ "rarity": "rare", "description": "Arrow Damage", "value": "110" },
+						{ "rarity": "epic", "description": "Arrow Damage", "value": "120" },
+						{ "rarity": "heroic", "description": "Arrow Damage", "value": "130" }
+					],
+					"image": "Artemis_Aid.png",
+					"prerequisites": []
+				},
+				{
+					"id": 50,
+					"god": "artemis",
+					"type": "boon",
+					"name": "Pressure Points",
+					"description": "Any damage you deal has a chance to be Critical.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Critical Chance", "value": "+3%" },
+						{ "rarity": "rare", "description": "Bonus Critical Chance", "value": "+4%" },
+						{ "rarity": "epic", "description": "Bonus Critical Chance", "value": "+5%" },
+						{ "rarity": "heroic", "description": "Bonus Critical Chance", "value": "+6%" }
+					],
+					"image": "Pressure_Points.png",
+					"prerequisites": []
+				},
+				{
+					"id": 51,
+					"god": "artemis",
+					"type": "boon",
+					"name": "Exit Wounds",
+					"description": "Your foes take damage when your  stuck in them is dislodged.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Dislodge Damage", "value": "100" },
+						{ "rarity": "rare", "description": "Dislodge Damage", "value": "120" },
+						{ "rarity": "epic", "description": "Dislodge Damage", "value": "140" },
+						{ "rarity": "heroic", "description": "Dislodge Damage", "value": "160" }
+					],
+					"image": "Exit_Wounds.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [2, 173, 149, 67, 46]
+						}
+					]
+				},
+				{
+					"id": 52,
+					"god": "artemis",
+					"type": "boon",
+					"name": "Hide Breaker",
+					"description": "Your Critical effects deal even more damage to Armor.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Critical Damage Bonus vs. Armor", "value": "200%" },
+						{ "rarity": "rare", "description": "Critical Damage Bonus vs. Armor", "value": "300%" },
+						{ "rarity": "epic", "description": "Critical Damage Bonus vs. Armor", "value": "400%" },
+						{ "rarity": "heroic", "description": "Critical Damage Bonus vs. Armor", "value": "500%" }
+					],
+					"image": "Hide_Breaker.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [44, 45, 46, 49, 50]
+						}
+					]
+				},
+				{
+					"id": 53,
+					"god": "artemis",
+					"type": "boon",
+					"name": "Clean Kill",
+					"description": "Your Critical effects deal even more damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Critical Damage", "value": "+15%" },
+						{ "rarity": "rare", "description": "Critical Damage", "value": "+22.5%" },
+						{ "rarity": "epic", "description": "Critical Damage", "value": "+30%" },
+						{ "rarity": "heroic", "description": "Critical Damage", "value": "+37.5%" }
+					],
+					"image": "Clean_Kill.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [44, 45, 46, 49, 50]
+						}
+					]
+				},
+				{
+					"id": 54,
+					"god": "artemis",
+					"type": "boon",
+					"name": "Hunter Instinct",
+					"description": "Your God Gauge charges faster when you deal Critical damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Faster Gauge Gain on Critical", "value": "+0.25%" },
+						{ "rarity": "rare", "description": "Faster Gauge Gain on Critical", "value": "+0.3%" },
+						{ "rarity": "epic", "description": "Faster Gauge Gain on Critical", "value": "+0.35%" },
+						{ "rarity": "heroic", "description": "Faster Gauge Gain on Critical", "value": "+0.4%" }
+					],
+					"image": "Hunter_Instinct.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [44, 45, 46, 50]
+						}
+					]
+				},
+				{
+					"id": 55,
+					"god": "artemis",
+					"type": "boon",
+					"name": "Hunter's Mark",
+					"description": "After you deal Critical damage to a foe, a foe near it is Marked.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Crit Chance", "value": "+30%" },
+						{ "rarity": "rare", "description": "Bonus Crit Chance", "value": "+45%" },
+						{ "rarity": "epic", "description": "Bonus Crit Chance", "value": "+75%" },
+						{ "rarity": "heroic", "description": "Bonus Crit Chance", "value": "+81%" }
+					],
+					"image": "Hunters_Mark.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [44, 45, 46, 49, 50]
+						}
+					]
+				},
+				{
+					"id": 56,
+					"god": "artemis",
+					"type": "boon",
+					"name": "Support Fire",
+					"description": "After you Cast, or hit with an Attack or Special, fire a seeking arrow.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Projectile Damage", "value": "10" },
+						{ "rarity": "rare", "description": "Projectile Damage", "value": "12" },
+						{ "rarity": "epic", "description": "Projectile Damage", "value": "14" },
+						{ "rarity": "heroic", "description": "Projectile Damage", "value": "16" }
+					],
+					"image": "Support_Fire.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [44, 45, 46, 49, 50, 48]
+						}
+					]
+				},
+				{
+					"id": 57,
+					"god": "artemis",
+					"type": "boon",
+					"name": "Fully Loaded",
+					"description": "Gain extra {BLOODSTONE} for your Cast.",
+					"extraStats": [{ "rarity": "legendary", "description": "Max Bloodstones", "value": "+2 {BLOODSTONE}" }],
+					"image": "Fully_Loaded.png",
+					"prerequisites": [
+						{
+							"count": 2,
+							"ids": [51, 50, 56]
+						}
+					],
+					"legendary": true
+				}
+			]
+		},
+		"athena": {
+			"boons": [
+				{
+					"id": 65,
+					"god": "athena",
+					"type": "attack",
+					"name": "Divine Strike",
+					"description": "Your Attack is stronger, and can Deflect.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Attack Damage", "value": "+40%" },
+						{ "rarity": "rare", "description": "Attack Damage", "value": "+60%" },
+						{ "rarity": "epic", "description": "Attack Damage", "value": "+80%" },
+						{ "rarity": "heroic", "description": "Attack Damage", "value": "+100%" }
+					],
+					"image": "Divine_Strike.png",
+					"prerequisites": []
+				},
+				{
+					"id": 66,
+					"god": "athena",
+					"type": "special",
+					"name": "Divine Flourish",
+					"description": "Your Special is stronger, and can Deflect.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Special Damage", "value": "+60%" },
+						{ "rarity": "rare", "description": "Special Damage", "value": "+90%" },
+						{ "rarity": "epic", "description": "Special Damage", "value": "+120%" },
+						{ "rarity": "heroic", "description": "Special Damage", "value": "+150%" }
+					],
+					"image": "Divine_Flourish.png",
+					"prerequisites": []
+				},
+				{
+					"id": 67,
+					"god": "athena",
+					"type": "cast",
+					"name": "Phalanx Shot",
+					"description": "Your Cast damages foes in a small area, and can Deflect.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "85" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "102" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "119" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "136" }
+					],
+					"image": "Phalanx_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 68,
+					"god": "athena",
+					"type": "cast",
+					"name": "Phalanx Flare",
+					"description": "Your Cast damages foes around you, and can Deflect.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "80" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "n/a" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "n/a" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "n/a" }
+					],
+					"image": "Phalanx_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 69,
+					"god": "athena",
+					"type": "dash",
+					"name": "Divine Dash",
+					"description": "Your Dash deals damage and can Deflect.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Dash Damage", "value": "10" },
+						{ "rarity": "rare", "description": "Dash Damage", "value": "12" },
+						{ "rarity": "epic", "description": "Dash Damage", "value": "14" },
+						{ "rarity": "heroic", "description": "Dash Damage", "value": "16" }
+					],
+					"image": "Divine_Dash.png",
+					"prerequisites": []
+				},
+				{
+					"id": 70,
+					"god": "athena",
+					"type": "call",
+					"name": "Athena's Aid",
+					"description": "Your Call briefly makes you Invulnerable and Deflect all attacks.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Effect Duration", "value": "1.5 Sec. Max Gauge Bonus: x6 Duration" },
+						{ "rarity": "rare", "description": "Effect Duration", "value": "1.65 Sec." },
+						{ "rarity": "epic", "description": "Effect Duration", "value": "1.8 Sec." },
+						{ "rarity": "heroic", "description": "Effect Duration", "value": "1.95 Sec." }
+					],
+					"image": "Athenas_Aid.png",
+					"prerequisites": []
+				},
+				{
+					"id": 71,
+					"god": "athena",
+					"type": "boon",
+					"name": "Holy Shield",
+					"description": "After you take damage, damage nearby foes and briefly Deflect.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Revenge Damage", "value": "30" },
+						{ "rarity": "rare", "description": "Revenge Damage", "value": "45" },
+						{ "rarity": "epic", "description": "Revenge Damage", "value": "60" },
+						{ "rarity": "heroic", "description": "Revenge Damage", "value": "75" }
+					],
+					"image": "Holy_Shield.png",
+					"prerequisites": []
+				},
+				{
+					"id": 72,
+					"god": "athena",
+					"type": "boon",
+					"name": "Bronze Skin",
+					"description": "Resist damage from foes' attacks.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Reduced Damage from Foes", "value": "5%" },
+						{ "rarity": "rare", "description": "Reduced Damage from Foes", "value": "7.5%" },
+						{ "rarity": "epic", "description": "Reduced Damage from Foes", "value": "10%" },
+						{ "rarity": "heroic", "description": "Reduced Damage from Foes", "value": "12.5%" }
+					],
+					"image": "Bronze_Skin.png",
+					"prerequisites": []
+				},
+				{
+					"id": 73,
+					"god": "athena",
+					"type": "boon",
+					"name": "Sure Footing",
+					"description": "Resist damage from Traps.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Reduced Trap Damage", "value": "60%" },
+						{ "rarity": "rare", "description": "Reduced Trap Damage", "value": "75%" },
+						{ "rarity": "epic", "description": "Reduced Trap Damage", "value": "90%" },
+						{ "rarity": "heroic", "description": "Reduced Trap Damage", "value": "95%" }
+					],
+					"image": "Sure_Footing.png",
+					"prerequisites": []
+				},
+				{
+					"id": 74,
+					"god": "athena",
+					"type": "boon",
+					"name": "Proud Bearing",
+					"description": "You begin each Encounter with your God Gauge partly full.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Starting Gauge", "value": "20%" },
+						{ "rarity": "rare", "description": "Starting Gauge", "value": "25%" },
+						{ "rarity": "epic", "description": "Starting Gauge", "value": "30%" },
+						{ "rarity": "heroic", "description": "Starting Gauge", "value": "40%" }
+					],
+					"image": "Proud_Bearing.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [70, 8, 27, 49, 92, 114, 152, 176]
+						}
+					]
+				},
+				{
+					"id": 75,
+					"god": "athena",
+					"type": "boon",
+					"name": "Blinding Flash",
+					"description": "Your abilities that can Deflect also make foes Exposed for 5 Sec.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Backstab Damage", "value": "+50%" },
+						{ "rarity": "rare", "description": "Bonus Backstab Damage", "value": "+62.5%" },
+						{ "rarity": "epic", "description": "Bonus Backstab Damage", "value": "+75%" },
+						{ "rarity": "heroic", "description": "Bonus Backstab Damage", "value": "+87.5%" }
+					],
+					"image": "Blinding_Flash.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [65, 66, 67, 68, 69]
+						}
+					]
+				},
+				{
+					"id": 76,
+					"god": "athena",
+					"type": "boon",
+					"name": "Brilliant Riposte",
+					"description": "When you Deflect attacks, they deal more damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Deflect Damage", "value": "+80%" },
+						{ "rarity": "rare", "description": "Deflect Damage", "value": "+120%" },
+						{ "rarity": "epic", "description": "Deflect Damage", "value": "200%" },
+						{ "rarity": "heroic", "description": "Deflect Damage", "value": "n/a" }
+					],
+					"image": "Brilliant_Riposte.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [65, 66, 69, 71]
+						}
+					]
+				},
+				{
+					"id": 77,
+					"god": "athena",
+					"type": "boon",
+					"name": "Deathless Stand",
+					"description": "Death Defiance makes you Impervious longer. Replenish 1 charge now.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Effect Duration", "value": "+2 Sec." },
+						{ "rarity": "rare", "description": "Effect Duration", "value": "+2.5 Sec." },
+						{ "rarity": "epic", "description": "Effect Duration", "value": "+3 Sec." },
+						{ "rarity": "heroic", "description": "Effect Duration", "value": "+3.5 Sec." }
+					],
+					"image": "Deathless_Stand.png",
+					"prerequisites": [{ "count": 1, "ids": [65, 66, 67, 69] }]
+				},
+				{
+					"id": 78,
+					"god": "athena",
+					"type": "boon",
+					"name": "Last Stand",
+					"description": "Death Defiance restores more {HEALTH} than usual. Replenish 1 charge now.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Restoration", "value": "+10%" },
+						{ "rarity": "rare", "description": "Bonus Restoration", "value": "+12%" },
+						{ "rarity": "epic", "description": "Bonus Restoration", "value": "+14%" },
+						{ "rarity": "heroic", "description": "Bonus Restoration", "value": "+16%" }
+					],
+					"image": "Last_Stand.png",
+					"prerequisites": [{ "count": 1, "ids": [65, 66, 67, 69] }]
+				},
+				{
+					"id": 79,
+					"god": "athena",
+					"type": "boon",
+					"name": "Divine Protection",
+					"description": "You have a barrier that negates incoming damage.",
+					"extraStats": [{ "rarity": "Legendary", "description": "Barrier Cooldown", "value": "20 Sec." }],
+					"image": "Divine_Protection.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [76]
+						}
+					],
+					"legendary": true
+				}
+			]
+		},
+		"demeter": {
+			"boons": [
+				{
+					"id": 87,
+					"god": "demeter",
+					"type": "attack",
+					"name": "Frost Strike",
+					"description": "Your Attack is stronger and inflicts Chill.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Attack damage", "value": "+40%" },
+						{ "rarity": "rare", "description": "Attack damage", "value": "+60%" },
+						{ "rarity": "epic", "description": "Attack damage", "value": "+80%" },
+						{ "rarity": "heroic", "description": "Attack damage", "value": "+100%" }
+					],
+					"image": "Frost_Strike.png",
+					"prerequisites": []
+				},
+				{
+					"id": 88,
+					"god": "demeter",
+					"type": "special",
+					"name": "Frost Flourish",
+					"description": "Your Special is stronger and inflicts Chill.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Special damage", "value": "60%" },
+						{ "rarity": "rare", "description": "Special damage", "value": "+90%" },
+						{ "rarity": "epic", "description": "Special damage", "value": "+120%" },
+						{ "rarity": "heroic", "description": "Special damage", "value": "+150%" }
+					],
+					"image": "Frost_Flourish.png",
+					"prerequisites": []
+				},
+				{
+					"id": 89,
+					"god": "demeter",
+					"type": "cast",
+					"name": "Crystal Beam",
+					"description": "Your Cast drops a crystal that fires a beam straight ahead for 5 sec.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "8 (every 0.2 sec)" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "9.2 (every 0.2 sec)" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "10.4 (every 0.2 sec)" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "11.6 (every 0.2 sec)" }
+					],
+					"image": "Crystal_Beam.png",
+					"prerequisites": []
+				},
+				{
+					"id": 90,
+					"god": "demeter",
+					"type": "cast",
+					"name": "Icy Flare",
+					"description": "Your Cast damages foes around you and inflicts Chill.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "70" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "n/a" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "n/a" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "n/a" }
+					],
+					"image": "Crystal_Beam.png",
+					"prerequisites": []
+				},
+				{
+					"id": 91,
+					"god": "demeter",
+					"type": "dash",
+					"name": "Mistral Dash",
+					"description": "Your Dash shoots a gust ahead that inflicts Chill.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Gust Damage", "value": "15" },
+						{ "rarity": "rare", "description": "Gust Damage", "value": "22.5" },
+						{ "rarity": "epic", "description": "Gust Damage", "value": "30" },
+						{ "rarity": "heroic", "description": "Gust Damage", "value": "37.5" }
+					],
+					"image": "Mistral_Dash.png",
+					"prerequisites": []
+				},
+				{
+					"id": 92,
+					"god": "demeter",
+					"type": "call",
+					"name": "Demeter's Aid",
+					"description": "Your Call creates a winter vortex for 5 Sec., deals damage every 0.25 Sec inflicting Chill.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Vortex Damage", "value": "10" },
+						{ "rarity": "rare", "description": "Vortex Damage", "value": "11" },
+						{ "rarity": "epic", "description": "Vortex Damage", "value": "12" },
+						{ "rarity": "heroic", "description": "Vortex Damage", "value": "13" }
+					],
+					"image": "Demeters_Aid.png",
+					"prerequisites": []
+				},
+				{
+					"id": 93,
+					"god": "demeter",
+					"type": "boon",
+					"name": "Frozen Touch",
+					"description": "After you take damage, damage and completely Chill your foe.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Revenge Damage", "value": "10" },
+						{ "rarity": "rare", "description": "Revenge Damage", "value": "15" },
+						{ "rarity": "epic", "description": "Revenge Damage", "value": "20" },
+						{ "rarity": "heroic", "description": "Revenge Damage", "value": "25" }
+					],
+					"image": "Frozen_Touch.png",
+					"prerequisites": []
+				},
+				{
+					"id": 94,
+					"god": "demeter",
+					"type": "boon",
+					"name": "Rare Crop",
+					"description": "Your Boons become common, then gain Rarity every 3 Encounter(s).",
+					"extraStats": [
+						{ "rarity": "common", "description": "Random boons affected", "value": "1" },
+						{ "rarity": "rare", "description": "Random boons affected", "value": "2" },
+						{ "rarity": "epic", "description": "Random boons affected", "value": "3" },
+						{ "rarity": "heroic", "description": "Random boons affected", "value": "n/a" }
+					],
+					"image": "Rare_Crop.png",
+					"prerequisites": []
+				},
+				{
+					"id": 95,
+					"god": "demeter",
+					"type": "boon",
+					"name": "Ravenous Will",
+					"description": "While you have no {BLOODSTONE} , take 10% less damage and deal more.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Damage bonus", "value": "+10%" },
+						{ "rarity": "rare", "description": "Damage bonus", "value": "+20%" },
+						{ "rarity": "epic", "description": "Damage bonus", "value": "+30%" },
+						{ "rarity": "heroic", "description": "Damage bonus", "value": "+40%" }
+					],
+					"image": "Ravenous_Will.png",
+					"prerequisites": []
+				},
+				{
+					"id": 96,
+					"god": "demeter",
+					"type": "boon",
+					"name": "Nourished Soul",
+					"description": "Any {HEALTH} effects are more potent. Restore 30% {HEALTH} now.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Restoration", "value": "30%" },
+						{ "rarity": "rare", "description": "Bonus Restoration", "value": "32.25%" },
+						{ "rarity": "epic", "description": "Bonus Restoration", "value": "34.5%" },
+						{ "rarity": "heroic", "description": "Bonus Restoration", "value": "36.75%" }
+					],
+					"image": "Nourished_Soul.png",
+					"prerequisites": []
+				},
+				{
+					"id": 97,
+					"god": "demeter",
+					"type": "boon",
+					"name": "Snow Burst",
+					"description": "Whenever you Cast, damage nearby foes and inflict Chill.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Area Damage", "value": "Damage: 40" },
+						{ "rarity": "rare", "description": "Area Damage", "value": "Damage: 50" },
+						{ "rarity": "epic", "description": "Area Damage", "value": "Damage: 60" },
+						{ "rarity": "heroic", "description": "Area Damage", "value": "Damage: 70" }
+					],
+					"image": "Snow_Burst.png",
+					"prerequisites": []
+				},
+				{
+					"id": 98,
+					"god": "demeter",
+					"type": "boon",
+					"name": "Arctic Blast",
+					"description": "Applying 10 stacks of Chill causes a blast, clearing the effect.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Damage", "value": "80" },
+						{ "rarity": "rare", "description": "Damage", "value": "100" },
+						{ "rarity": "epic", "description": "Damage", "value": "120" },
+						{ "rarity": "heroic", "description": "Damage", "value": "140" }
+					],
+					"image": "Arctic_Blast.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [92, 88, 87, 91, 97]
+						}
+					]
+				},
+				{
+					"id": 99,
+					"god": "demeter",
+					"type": "boon",
+					"name": "Killing Freeze",
+					"description": "Applying Chill to all enemies causes them to Slow and Decay.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Slow and Decay", "value": "Slow 10%, Damage: 20 (every 0.5 sec)" },
+						{ "rarity": "rare", "description": "Slow and Decay", "value": "Slow 15%, Damage: 30 (every 0.5 sec)" },
+						{ "rarity": "epic", "description": "Slow and Decay", "value": "Slow 20%, Damage: 40 (every 0.5 sec)" },
+						{ "rarity": "heroic", "description": "Slow and Decay", "value": "Slow 25%, Damage: 50 (every 0.5 sec)" }
+					],
+					"image": "Killing_Freeze.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [92, 88, 87, 91, 97]
+						}
+					]
+				},
+				{
+					"id": 100,
+					"god": "demeter",
+					"type": "boon",
+					"name": "Glacial Glare",
+					"description": "Your Cast fires longer and inflicts Chill.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Duration", "value": "2 Sec." },
+						{ "rarity": "rare", "description": "Bonus Duration", "value": "2.4 Sec." },
+						{ "rarity": "epic", "description": "Bonus Duration", "value": "2.8 Sec." },
+						{ "rarity": "heroic", "description": "Bonus Duration", "value": "3.2 Sec." }
+					],
+					"image": "Glacial_Glare.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [89]
+						}
+					]
+				},
+				{
+					"id": 101,
+					"god": "demeter",
+					"type": "boon",
+					"name": "Winter Harvest",
+					"description": "Chill-affected foes shatter at 10% {HEALTH}, inflicting Chill nearby.",
+					"extraStats": [{ "rarity": "Legendary", "description": "Shatter Area Damage", "value": "50" }],
+					"image": "Winter_Harvest.png",
+					"prerequisites": [
+						{
+							"count": 2,
+							"ids": [98, 99, 95]
+						}
+					],
+					"legendary": true
+				}
+			]
+		},
+		"dionysus": {
+			"boons": [
+				{
+					"id": 109,
+					"god": "dionysus",
+					"type": "attack",
+					"name": "Drunken Strike",
+					"description": "Your Attack inflicts Hangover.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Hangover Damage", "value": "4" },
+						{ "rarity": "rare", "description": "Hangover Damage", "value": "5" },
+						{ "rarity": "epic", "description": "Hangover Damage", "value": "6" },
+						{ "rarity": "heroic", "description": "Hangover Damage", "value": "7" }
+					],
+					"image": "Drunken_Strike.png",
+					"prerequisites": []
+				},
+				{
+					"id": 110,
+					"god": "dionysus",
+					"type": "special",
+					"name": "Drunken Flourish",
+					"description": "Your Special inflicts Hangover.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Hangover Damage", "value": "5" },
+						{ "rarity": "rare", "description": "Hangover Damage", "value": "6" },
+						{ "rarity": "epic", "description": "Hangover Damage", "value": "7" },
+						{ "rarity": "heroic", "description": "Hangover Damage", "value": "8" }
+					],
+					"image": "Drunken_Flourish.png",
+					"prerequisites": []
+				},
+				{
+					"id": 111,
+					"god": "dionysus",
+					"type": "cast",
+					"name": "Trippy Shot",
+					"description": "Your Cast lobs a projectile that bursts into Festive Fog.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Blast Damage", "value": "120" },
+						{ "rarity": "rare", "description": "Blast Damage", "value": "140" },
+						{ "rarity": "epic", "description": "Blast Damage", "value": "160" },
+						{ "rarity": "heroic", "description": "Blast Damage", "value": "180" }
+					],
+					"image": "Trippy_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 112,
+					"god": "dionysus",
+					"type": "cast",
+					"name": "Trippy Flare",
+					"description": "Your Cast damages foes around you, leaving behind Festive Fog.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Blast Damage", "value": "120" },
+						{ "rarity": "rare", "description": "Blast Damage", "value": "n/a" },
+						{ "rarity": "epic", "description": "Blast Damage", "value": "n/a" },
+						{ "rarity": "heroic", "description": "Blast Damage", "value": "n/a" }
+					],
+					"image": "Trippy_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 113,
+					"god": "dionysus",
+					"type": "dash",
+					"name": "Drunken Dash",
+					"description": "Your Dash inflicts foes near you with Hangover.",
+					"extraStats": [
+						{ "rarity": "common", "description": "TBD", "value": "Hangover Damage: 2" },
+						{ "rarity": "rare", "description": "TBD", "value": "Hangover Damage: 3" },
+						{ "rarity": "epic", "description": "TBD", "value": "Hangover Damage: 4" },
+						{ "rarity": "heroic", "description": "TBD", "value": "Hangover Damage: 5" }
+					],
+					"image": "Drunken_Dash.png",
+					"prerequisites": []
+				},
+				{
+					"id": 114,
+					"god": "dionysus",
+					"type": "call",
+					"name": "Dionysus' Aid",
+					"description": "Your Call inflicts Hangover to foes all around you for 1.5 Sec.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Hangover Damage", "value": "15" },
+						{ "rarity": "rare", "description": "Hangover Damage", "value": "16.5" },
+						{ "rarity": "epic", "description": "Hangover Damage", "value": "18" },
+						{ "rarity": "heroic", "description": "Hangover Damage", "value": "19.5" }
+					],
+					"image": "Dionysus_Aid.png",
+					"prerequisites": []
+				},
+				{
+					"id": 115,
+					"god": "dionysus",
+					"type": "boon",
+					"name": "After Party",
+					"description": "If your {HEALTH} is low after Encounters, restore to the threshold.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Life Threshold", "value": "30%" },
+						{ "rarity": "rare", "description": "Life Threshold", "value": "37.5%" },
+						{ "rarity": "epic", "description": "Life Threshold", "value": "45%" },
+						{ "rarity": "heroic", "description": "Life Threshold", "value": "60%" }
+					],
+					"image": "After_Party.png",
+					"prerequisites": []
+				},
+				{
+					"id": 116,
+					"god": "dionysus",
+					"type": "boon",
+					"name": "Positive Outlook",
+					"description": "Take less damage while at 40% {HEALTH} or below.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Damage Resistance", "value": "+10%" },
+						{ "rarity": "rare", "description": "Damage Resistance", "value": "+15%" },
+						{ "rarity": "epic", "description": "Damage Resistance", "value": "+20%" },
+						{ "rarity": "heroic", "description": "Damage Resistance", "value": "n/a" }
+					],
+					"image": "Positive_Outlook.png",
+					"prerequisites": []
+				},
+				{
+					"id": 117,
+					"god": "dionysus",
+					"type": "boon",
+					"name": "Premium Vintage",
+					"description": "Gain {MAX_HEALTH} when you pick up {NECTAR}. Receive 1 {NECTAR} now.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Life Gain", "value": "20" },
+						{ "rarity": "rare", "description": "Life Gain", "value": "25" },
+						{ "rarity": "epic", "description": "Life Gain", "value": "30" },
+						{ "rarity": "heroic", "description": "Life Gain", "value": "35" }
+					],
+					"image": "Premium_Vintage.png",
+					"prerequisites": []
+				},
+				{
+					"id": 118,
+					"god": "dionysus",
+					"type": "boon",
+					"name": "Strong Drink",
+					"description": "Using a Fountain restores all {HEALTH} and gives you bonus damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Damage per Fountain", "value": "3%" },
+						{ "rarity": "rare", "description": "Bonus Damage per Fountain", "value": "n/a" },
+						{ "rarity": "epic", "description": "Bonus Damage per Fountain", "value": "n/a" },
+						{ "rarity": "heroic", "description": "Bonus Damage per Fountain", "value": "n/a" }
+					],
+					"image": "Strong_Drink.png",
+					"prerequisites": []
+				},
+				{
+					"id": 119,
+					"god": "dionysus",
+					"type": "boon",
+					"name": "Bad Influence",
+					"description": "Deal more damage while 3 foes are Hangover-afflicted.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Damage", "value": "+50%" },
+						{ "rarity": "rare", "description": "Bonus Damage", "value": "+75%" },
+						{ "rarity": "epic", "description": "Bonus Damage", "value": "+100%" },
+						{ "rarity": "heroic", "description": "Bonus Damage", "value": "+125%" }
+					],
+					"image": "Bad_Influence.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [114, 109, 110, 113]
+						}
+					]
+				},
+				{
+					"id": 120,
+					"god": "dionysus",
+					"type": "boon",
+					"name": "Numbing Sensation",
+					"description": "Your Hangover effects also make foes move slower.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Speed Reduction", "value": "15%" },
+						{ "rarity": "rare", "description": "Speed Reduction", "value": "22.5%" },
+						{ "rarity": "epic", "description": "Speed Reduction", "value": "33%" },
+						{ "rarity": "heroic", "description": "Speed Reduction", "value": "37.5%" }
+					],
+					"image": "Numbing_Sensation.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [114, 109, 110, 113]
+						}
+					]
+				},
+				{
+					"id": 121,
+					"god": "dionysus",
+					"type": "boon",
+					"name": "Peer Pressure",
+					"description": "Hangover-afflicted foes inflict it other nearby foes every 4 Sec.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Hangover Damage", "value": "4" },
+						{ "rarity": "rare", "description": "Hangover Damage", "value": "6" },
+						{ "rarity": "epic", "description": "Hangover Damage", "value": "10" },
+						{ "rarity": "heroic", "description": "Hangover Damage", "value": "11" }
+					],
+					"image": "Peer_Pressure.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [114, 109, 110]
+						}
+					]
+				},
+				{
+					"id": 122,
+					"god": "dionysus",
+					"type": "boon",
+					"name": "High Tolerance",
+					"description": "Take less damage while standing in Festive Fog.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Damage Resistance", "value": ": 12%" },
+						{ "rarity": "rare", "description": "Damage Resistance", "value": "18%" },
+						{ "rarity": "epic", "description": "Damage Resistance", "value": "30%" },
+						{ "rarity": "heroic", "description": "Damage Resistance", "value": "32.4%" }
+					],
+					"image": "High_Tolerance.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [111, 112]
+						}
+					]
+				},
+				{
+					"id": 123,
+					"god": "dionysus",
+					"type": "boon",
+					"name": "Black Out",
+					"description": "Hangover-afflicted foes take bonus damage in Festive Fog.",
+					"extraStats": [{ "rarity": "Legendary", "description": "Fog Combo Damage", "value": "+60%" }],
+					"image": "Black_Out.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [114, 110, 109]
+						},
+						{
+							"count": 1,
+							"ids": [111]
+						}
+					],
+					"legendary": true
+				}
+			]
+		},
+		"hermes": {
+			"boons": [
+				{
+					"id": 131,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Swift Strike",
+					"description": "Your Attack is faster.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Attack Speed", "value": "+12.5%" },
+						{ "rarity": "rare", "description": "Attack Speed", "value": "+21.25%" },
+						{ "rarity": "epic", "description": "Attack Speed", "value": "+30%" },
+						{ "rarity": "heroic", "description": "Attack Speed", "value": "+38.75%" }
+					],
+					"image": "Swift_Strike.png",
+					"prerequisites": []
+				},
+				{
+					"id": 132,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Swift Flourish",
+					"description": "Your Special is faster.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Special Speed", "value": "+12.5%" },
+						{ "rarity": "rare", "description": "Special Speed", "value": "+21.25%" },
+						{ "rarity": "epic", "description": "Special Speed", "value": "+30%" },
+						{ "rarity": "heroic", "description": "Special Speed", "value": "+38.75%" }
+					],
+					"image": "Swift_Flourish.png",
+					"prerequisites": []
+				},
+				{
+					"id": 133,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Flurry Cast",
+					"description": "Hold cast to fire in rapid succession",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Speed", "value": "+20%" },
+						{ "rarity": "rare", "description": "Cast Speed", "value": "+40%" },
+						{ "rarity": "epic", "description": "Cast Speed", "value": "+60%" },
+						{ "rarity": "heroic", "description": "Cast Speed", "value": "+80%" }
+					],
+					"image": "Flurry_Cast.png",
+					"prerequisites": []
+				},
+				{
+					"id": 134,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Quick Favor",
+					"description": "Your God Gauge charges up automatically.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Auto Gauge Gain", "value": "+1% (every 1 sec.)" },
+						{ "rarity": "rare", "description": "Auto Gauge Gain", "value": "+1% (every 1.5 sec.)" },
+						{ "rarity": "epic", "description": "Auto Gauge Gain", "value": "+1% (every 1 sec.)" },
+						{ "rarity": "heroic", "description": "Auto Gauge Gain", "value": "+1% (every 0.5 sec.)" }
+					],
+					"image": "Quick_Favor.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [5, 27, 49, 70, 92, 114, 152, 176]
+						}
+					]
+				},
+				{
+					"id": 135,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Hyper Sprint",
+					"description": "After you dash, briefly become Sturdy and move +100% faster.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Sprint Duration", "value": "0.5 sec." },
+						{ "rarity": "rare", "description": "Sprint Duration", "value": "0.6 sec." },
+						{ "rarity": "epic", "description": "Sprint Duration", "value": "0.7 sec." },
+						{ "rarity": "heroic", "description": "Sprint Duration", "value": "0.9 sec." }
+					],
+					"image": "Hyper_Sprint.png",
+					"prerequisites": []
+				},
+				{
+					"id": 136,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Greater Haste",
+					"description": "You move faster.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Move Speed", "value": "+20%" },
+						{ "rarity": "rare", "description": "Move Speed", "value": "+30%" },
+						{ "rarity": "epic", "description": "Move Speed", "value": "+40%" },
+						{ "rarity": "heroic", "description": "Move Speed", "value": "+49%" }
+					],
+					"image": "Greater_Haste.png",
+					"prerequisites": []
+				},
+				{
+					"id": 137,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Quick Recovery",
+					"description": "After taking damage, quickly Dash to recover some {HEALTH} you just lost.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Life Recovered", "value": "30%" },
+						{ "rarity": "rare", "description": "Life Recovered", "value": "40%" },
+						{ "rarity": "epic", "description": "Life Recovered", "value": "50%" },
+						{ "rarity": "heroic", "description": "Life Recovered", "value": "60%" }
+					],
+					"image": "Quick_Recovery.png",
+					"prerequisites": []
+				},
+				{
+					"id": 138,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Greater Evasion",
+					"description": "Whenever you are hit, you have a chance to Dodge automatically.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Dodge Chance", "value": "+10%" },
+						{ "rarity": "rare", "description": "Dodge Chance", "value": "+15%" },
+						{ "rarity": "epic", "description": "Dodge Chance", "value": "+20%" },
+						{ "rarity": "heroic", "description": "Dodge Chance", "value": "+25%" }
+					],
+					"image": "Greater_Evasion.png",
+					"prerequisites": []
+				},
+				{
+					"id": 139,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Greatest Reflex",
+					"description": "You can Dash more time in a row.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Extra Dashes", "value": "+1" },
+						{ "rarity": "rare", "description": "Extra Dashes", "value": "+2" },
+						{ "rarity": "epic", "description": "Extra Dashes", "value": "+3" },
+						{ "rarity": "heroic", "description": "Extra Dashes", "value": "+4" }
+					],
+					"image": "Greatest_Reflex.png",
+					"prerequisites": []
+				},
+				{
+					"id": 140,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Second Wind",
+					"description": "After using Call, gain Dodge chance and move speed for 10 Sec.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Dodge Chance & Move Speed", "value": "30%" },
+						{ "rarity": "rare", "description": "Bonus Dodge Chance & Move Speed", "value": "+37.5%" },
+						{ "rarity": "epic", "description": "Bonus Dodge Chance & Move Speed", "value": "+45%" },
+						{ "rarity": "heroic", "description": "Bonus Dodge Chance & Move Speed", "value": "+52.5%" }
+					],
+					"image": "Second_Wind.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [5, 27, 49, 70, 92, 114, 152, 176]
+						}
+					]
+				},
+				{
+					"id": 141,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Quick Reload",
+					"description": "Foes drop {BLOODSTONE} stuck in them faster.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Drop Time:", "value": "5 Sec." },
+						{ "rarity": "rare", "description": "Drop Time:", "value": "6.67 Sec." },
+						{ "rarity": "epic", "description": "Drop Time:", "value": "n/a" },
+						{ "rarity": "heroic", "description": "Drop Time:", "value": "n/a" }
+					],
+					"image": "Quick_Reload.png",
+					"prerequisites": []
+				},
+				{
+					"id": 142,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Side Hustle",
+					"description": "Each time you enter a Chamber, gain a bit of wealth.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Wealth per Chamber", "value": "+10 {OBOL}" },
+						{ "rarity": "rare", "description": "Bonus Wealth per Chamber", "value": "+13 {OBOL}" },
+						{ "rarity": "epic", "description": "Bonus Wealth per Chamber", "value": "+16 {OBOL}" },
+						{ "rarity": "heroic", "description": "Bonus Wealth per Chamber", "value": "+19 {OBOL}" }
+					],
+					"image": "Side_Hustle.png",
+					"prerequisites": []
+				},
+				{
+					"id": 143,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Rush Delivery",
+					"description": "You deal bonus damage based on any bonus move speed.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Damage from Bonus Speed", "value": "50%" },
+						{ "rarity": "rare", "description": "Bonus Damage from Bonus Speed", "value": "75%" },
+						{ "rarity": "epic", "description": "Bonus Damage from Bonus Speed", "value": "100%" },
+						{ "rarity": "heroic", "description": "Bonus Damage from Bonus Speed", "value": "125%" }
+					],
+					"image": "Rush_Delivery.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [136, 135]
+						}
+					]
+				},
+				{
+					"id": 144,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Auto Reload",
+					"description": "You regenerate  faster.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Regeneration Time", "value": "4.59 Sec." },
+						{ "rarity": "rare", "description": "Regeneration Time", "value": "n/a Sec." },
+						{ "rarity": "epic", "description": "Regeneration Time", "value": "n/a Sec." },
+						{ "rarity": "heroic", "description": "Regeneration Time", "value": "n/a Sec." }
+					],
+					"image": "Quick_Reload.png",
+					"prerequisites": []
+				},
+				{
+					"id": 145,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Greater Recall",
+					"description": "Your {BLOODSTONE} automatically return to you.",
+					"extraStats": [{ "rarity": "Legendary", "description": "Bloodstone Return Delay", "value": "0 Sec." }],
+					"image": "Greater_Recall.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [133, 137, 144]
+						}
+					],
+					"legendary": true
+				},
+				{
+					"id": 146,
+					"god": "hermes",
+					"type": "boon",
+					"name": "Bad News",
+					"description": "Your cast deals more damage to foes without {BLOODSTONE} in them.",
+					"extraStats": [{ "rarity": "Legendary", "description": "First shot damage", "value": "+50%" }],
+					"image": "Flurry_Cast.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [144]
+						}
+					],
+					"legendary": true
+				}
+			]
+		},
+		"poseidon": {
+			"boons": [
+				{
+					"id": 147,
+					"god": "poseidon",
+					"type": "attack",
+					"name": "Tempest Strike",
+					"description": "Your Attack deals more damage and knocks foes away.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Attack Damage", "value": "+30%" },
+						{ "rarity": "rare", "description": "Attack Damage", "value": "+45%" },
+						{ "rarity": "epic", "description": "Attack Damage", "value": "+60%" },
+						{ "rarity": "heroic", "description": "Attack Damage", "value": "+75%" }
+					],
+					"image": "Tempest_Strike.png",
+					"prerequisites": []
+				},
+				{
+					"id": 148,
+					"god": "poseidon",
+					"type": "special",
+					"name": "Tempest Flourish",
+					"description": "Your Special deals more damage and knocks foes away.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Special Damage", "value": "+70%" },
+						{ "rarity": "rare", "description": "Special Damage", "value": "+105%" },
+						{ "rarity": "epic", "description": "Special Damage", "value": "+140%" },
+						{ "rarity": "heroic", "description": "Special Damage", "value": "+175%" }
+					],
+					"image": "Tempest_Flourish.png",
+					"prerequisites": []
+				},
+				{
+					"id": 149,
+					"god": "poseidon",
+					"type": "cast",
+					"name": "Flood Shot",
+					"description": "Your Cast damages foes in an area and knocks them away.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "60" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "72" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "84" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "96" }
+					],
+					"image": "Flood_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 150,
+					"god": "poseidon",
+					"type": "cast",
+					"name": "Flood Flare",
+					"description": "Your Cast damages foes around you and knocks them away.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "60" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "n/a" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "n/a" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "n/a" }
+					],
+					"image": "Flood_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 151,
+					"god": "poseidon",
+					"type": "dash",
+					"name": "Tidal Dash",
+					"description": "Your Dash damages foes in an area and knocks them away.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Dash Damage", "value": "35" },
+						{ "rarity": "rare", "description": "Dash Damage", "value": "42" },
+						{ "rarity": "epic", "description": "Dash Damage", "value": "49" },
+						{ "rarity": "heroic", "description": "Dash Damage", "value": "56" }
+					],
+					"image": "Tidal_Dash.png",
+					"prerequisites": []
+				},
+				{
+					"id": 152,
+					"god": "poseidon",
+					"type": "call",
+					"name": "Poseidon's Aid",
+					"description": "Your Call makes you surge into foes while Impervious for 1.2 Sec.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Impact Damage", "value": "250" },
+						{ "rarity": "rare", "description": "Impact Damage", "value": "300" },
+						{ "rarity": "epic", "description": "Impact Damage", "value": "350" },
+						{ "rarity": "heroic", "description": "Impact Damage", "value": "400" }
+					],
+					"image": "Poseidons_Aid.png",
+					"prerequisites": []
+				},
+				{
+					"id": 153,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Typhoon's Fury",
+					"description": "You deal more damage when slamming foes into barriers.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Slam Damage", "value": "200%" },
+						{ "rarity": "rare", "description": "Slam Damage", "value": "250%" },
+						{ "rarity": "epic", "description": "Slam Damage", "value": "300%" },
+						{ "rarity": "heroic", "description": "Slam Damage", "value": "350%" }
+					],
+					"image": "Typhoons_Fury.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [147, 148, 151, 149, 152]
+						}
+					]
+				},
+				{
+					"id": 154,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Hydraulic Might",
+					"description": "Your Attack and Special are stronger the first 10 Sec. in Encounter(s).",
+					"extraStats": [
+						{ "rarity": "common", "description": "Initial Damage Bonus", "value": "+50%" },
+						{ "rarity": "rare", "description": "Initial Damage Bonus", "value": "+67%" },
+						{ "rarity": "epic", "description": "Initial Damage Bonus", "value": "+83.5%" },
+						{ "rarity": "heroic", "description": "Initial Damage Bonus", "value": "+100%" }
+					],
+					"image": "Hydraulic_Might.png",
+					"prerequisites": []
+				},
+				{
+					"id": 155,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Ocean's Bounty",
+					"description": "Any {GEMSTONES}, {DARKNESS} or {OBOL} chamber rewards are worth more.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Reward Bonus", "value": "+50%" },
+						{ "rarity": "rare", "description": "Reward Bonus", "value": "+55%" },
+						{ "rarity": "epic", "description": "Reward Bonus", "value": "+60%" },
+						{ "rarity": "heroic", "description": "Reward Bonus", "value": "+65%" }
+					],
+					"image": "Oceans_Bounty.png",
+					"prerequisites": []
+				},
+				{
+					"id": 156,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Sunken Treasure",
+					"description": "Gain a random assortment of {GEMSTONES}, {DARKNESS}, {OBOL} , and {HEALTH}.",
+					"extraStats": [
+						{
+							"rarity": "common",
+							"description": "Obols, Health, Darkness, Nectar, Diamond",
+							"value": "50–70, 1–3, 50-100, 10%, 0.03%"
+						},
+						{ "rarity": "rare", "description": "n/a", "value": "n/a" },
+						{ "rarity": "epic", "description": "n/a", "value": "n/a" },
+						{ "rarity": "heroic", "description": "n/a", "value": "n/a" }
+					],
+					"image": "Sunken_Treasure.png",
+					"prerequisites": []
+				},
+				{
+					"id": 157,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Razor Shoals",
+					"description": "Your boons with knock-away effects also Rupture foes.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Rupture Damage", "value": "10(every 0.4 Sec.)" },
+						{ "rarity": "rare", "description": "Rupture Damage", "value": "15(every 0.4 Sec.)" },
+						{ "rarity": "epic", "description": "Rupture Damage", "value": "20(every 0.4 Sec.)" },
+						{ "rarity": "heroic", "description": "Rupture Damage", "value": "25(every 0.4 Sec.)" }
+					],
+					"image": "Razor_Shoals.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [147, 148, 151, 149, 152]
+						}
+					]
+				},
+				{
+					"id": 158,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Boiling Point",
+					"description": "Your God Gauge charges faster when you take damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Faster Gauge Gain When Hit", "value": "+40%" },
+						{ "rarity": "rare", "description": "Faster Gauge Gain When Hit", "value": "+50%" },
+						{ "rarity": "epic", "description": "Faster Gauge Gain When Hit", "value": "+60%" },
+						{ "rarity": "heroic", "description": "Faster Gauge Gain When Hit", "value": "+70%" }
+					],
+					"image": "Boiling_Point.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [5, 27, 49, 70, 92, 114, 152, 176]
+						}
+					]
+				},
+				{
+					"id": 159,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Breaking Wave",
+					"description": "Slamming foes into walls or corners creates a watery blast in the area.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Stun Duration", "value": "100" },
+						{ "rarity": "rare", "description": "Stun Duration", "value": "150" },
+						{ "rarity": "epic", "description": "Stun Duration", "value": "250" },
+						{ "rarity": "heroic", "description": "Stun Duration", "value": "270" }
+					],
+					"image": "Breaking_Wave.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [149, 152, 147, 148, 151]
+						}
+					]
+				},
+				{
+					"id": 160,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Wave Pounding",
+					"description": "Your boons with Knock-Away effects deal bonus damage to bosses.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Knock-Away Damage vs. Bosses", "value": "+20%" },
+						{ "rarity": "rare", "description": "Knock-Away Damage vs. Bosses", "value": "+30%" },
+						{ "rarity": "epic", "description": "Knock-Away Damage vs. Bosses", "value": "+40%" },
+						{ "rarity": "heroic", "description": "Knock-Away Damage vs. Bosses", "value": "+50%" }
+					],
+					"image": "Wave_Pounding.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [149, 152, 147, 148, 151]
+						}
+					]
+				},
+				{
+					"id": 161,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Rip Current",
+					"description": "Your Call pulls in foes and the effect lasts longer.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Duration", "value": "1 Sec. Duration" },
+						{ "rarity": "rare", "description": "Bonus Duration", "value": "n/a" },
+						{ "rarity": "epic", "description": "Bonus Duration", "value": "n/a" },
+						{ "rarity": "heroic", "description": "Bonus Duration", "value": "n/a" }
+					],
+					"image": "Rip_Current.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [152]
+						}
+					]
+				},
+				{
+					"id": 162,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Huge Catch",
+					"description": "You have a greater chance to find a Fishing Point in each Chamber.",
+					"extraStats": [{ "rarity": "Legendary", "description": "Fish Spawn Chance", "value": "+20%" }],
+					"image": "Huge_Catch.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [155, 156]
+						}
+					],
+					"legendary": true
+				},
+				{
+					"id": 163,
+					"god": "poseidon",
+					"type": "boon",
+					"name": "Second Wave",
+					"description": "Your knock-away effects shove foes multiple times.",
+					"extraStats": [{ "rarity": "Legendary", "description": "Bonus Knock-Away Effects", "value": "+1" }],
+					"image": "Second_Wave.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [159, 153]
+						},
+						{
+							"count": 1,
+							"ids": [149, 152, 148, 147, 151]
+						}
+					],
+					"legendary": true
+				}
+			]
+		},
+		"zeus": {
+			"boons": [
+				{
+					"id": 171,
+					"god": "zeus",
+					"type": "attack",
+					"name": "Lightning Strike",
+					"description": "Your Attack emits chain-lightning when you damage a foe.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Lightning Damage", "value": "10" },
+						{ "rarity": "rare", "description": "Lightning Damage", "value": "12.5" },
+						{ "rarity": "epic", "description": "Lightning Damage", "value": "15" },
+						{ "rarity": "heroic", "description": "Lightning Damage", "value": "20" }
+					],
+					"image": "Lightning_Strike.png",
+					"prerequisites": []
+				},
+				{
+					"id": 172,
+					"god": "zeus",
+					"type": "special",
+					"name": "Thunder Flourish",
+					"description": "Your Special causes a lightning bolt to strike nearby foes.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Lightning Damage", "value": "30" },
+						{ "rarity": "rare", "description": "Lightning Damage", "value": "37.5" },
+						{ "rarity": "epic", "description": "Lightning Damage", "value": "45" },
+						{ "rarity": "heroic", "description": "Lightning Damage", "value": "60" }
+					],
+					"image": "Thunder_Flourish.png",
+					"prerequisites": []
+				},
+				{
+					"id": 173,
+					"god": "zeus",
+					"type": "cast",
+					"name": "Electric Shot",
+					"description": "Your Cast is a burst of chain-lightning that bounces between foes.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Cast Damage", "value": "60" },
+						{ "rarity": "rare", "description": "Cast Damage", "value": "72" },
+						{ "rarity": "epic", "description": "Cast Damage", "value": "84" },
+						{ "rarity": "heroic", "description": "Cast Damage", "value": "96" }
+					],
+					"image": "Electric_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 174,
+					"god": "zeus",
+					"type": "cast",
+					"name": "Thunder Flare",
+					"description": "Your Cast causes a lightning bolt to strike nearby foes.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bolt Damage", "value": "60" },
+						{ "rarity": "rare", "description": "Bolt Damage", "value": "n/a" },
+						{ "rarity": "epic", "description": "Bolt Damage", "value": "n/a" },
+						{ "rarity": "heroic", "description": "Bolt Damage", "value": "n/a" }
+					],
+					"image": "Electric_Shot.png",
+					"prerequisites": []
+				},
+				{
+					"id": 175,
+					"god": "zeus",
+					"type": "boon",
+					"name": "Thunder Dash",
+					"description": "Your Dash causes a lightning bolt to strike nearby foes.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bolt Damage", "value": "10" },
+						{ "rarity": "rare", "description": "Bolt Damage", "value": "13.3" },
+						{ "rarity": "epic", "description": "Bolt Damage", "value": "16.6" },
+						{ "rarity": "heroic", "description": "Bolt Damage", "value": "Lightning Damage: 20" }
+					],
+					"image": "Thunder_Dash.png",
+					"prerequisites": []
+				},
+				{
+					"id": 176,
+					"god": "zeus",
+					"type": "call",
+					"name": "Zeus' Aid",
+					"description": "Your Call makes lightning strike nearby foes repeatedly for 1.5 Sec.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Lightning Damage", "value": "50" },
+						{ "rarity": "rare", "description": "Lightning Damage", "value": "55" },
+						{ "rarity": "epic", "description": "Lightning Damage", "value": "60" },
+						{ "rarity": "heroic", "description": "Lightning Damage", "value": "70" }
+					],
+					"image": "Zeus_Aid.png",
+					"prerequisites": []
+				},
+				{
+					"id": 177,
+					"god": "zeus",
+					"type": "boon",
+					"name": "Heaven's Vengeance",
+					"description": "After you take damage, your foe is struck by lightning.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Revenge Damage", "value": "80" },
+						{ "rarity": "rare", "description": "Revenge Damage", "value": "120" },
+						{ "rarity": "epic", "description": "Revenge Damage", "value": "160" },
+						{ "rarity": "heroic", "description": "Revenge Damage", "value": "200" }
+					],
+					"image": "Heavens_Vengeance.png",
+					"prerequisites": []
+				},
+				{
+					"id": 178,
+					"god": "zeus",
+					"type": "boon",
+					"name": "Lightning Reflexes",
+					"description": "After you Dash just before getting hit, a bolt strikes a nearby foes.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bolt Damage", "value": "20" },
+						{ "rarity": "rare", "description": "Bolt Damage", "value": "30" },
+						{ "rarity": "epic", "description": "Bolt Damage", "value": "40" },
+						{ "rarity": "heroic", "description": "Bolt Damage", "value": "50" }
+					],
+					"image": "Lightning_Reflexes.png",
+					"prerequisites": []
+				},
+				{
+					"id": 179,
+					"god": "zeus",
+					"type": "boon",
+					"name": "Storm Lightning",
+					"description": "Your chain-lightning effects bounce more times before expiring.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Lightning Bounces", "value": "+2" },
+						{ "rarity": "rare", "description": "TLightning BouncesBD", "value": "+4" },
+						{ "rarity": "epic", "description": "Lightning Bounces", "value": "+6" },
+						{ "rarity": "heroic", "description": "Lightning Bounces", "value": "+8" }
+					],
+					"image": "Storm_Lightning.png",
+					"prerequisites": []
+				},
+				{
+					"id": 180,
+					"god": "zeus",
+					"type": "boon",
+					"name": "High Voltage",
+					"description": "Your lightning bolt effects deal damage in a larger area.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bolt Area of Effect", "value": "+60%" },
+						{ "rarity": "rare", "description": "Bolt Area of Effect", "value": "+72%" },
+						{ "rarity": "epic", "description": "Bolt Area of Effect", "value": "+84%" },
+						{ "rarity": "heroic", "description": "Bolt Area of Effect", "value": "+96%" }
+					],
+					"image": "High_Voltage.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [175, 172, 176]
+						}
+					]
+				},
+				{
+					"id": 181,
+					"god": "zeus",
+					"type": "boon",
+					"name": "Double Strike",
+					"description": "Your lightning bolt effects have a chance to strike twice.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Strike Chance", "value": ": 25%" },
+						{ "rarity": "rare", "description": "Strike Chance", "value": "30%" },
+						{ "rarity": "epic", "description": "Strike Chance", "value": "35%" },
+						{ "rarity": "heroic", "description": "Strike Chance", "value": "40%" }
+					],
+					"image": "Double_Strike.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [175, 172, 176]
+						}
+					]
+				},
+				{
+					"id": 182,
+					"god": "zeus",
+					"type": "boon",
+					"name": "Static Discharge",
+					"description": "Your lightning effects also make foes Jolted.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Jolt Damage", "value": "60" },
+						{ "rarity": "rare", "description": "Jolt Damage", "value": "90" },
+						{ "rarity": "epic", "description": "Jolt Damage", "value": "120" },
+						{ "rarity": "heroic", "description": "Jolt Damage", "value": "150" }
+					],
+					"image": "Static_Discharge.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [172, 171, 176, 175, 177, 173, 178]
+						}
+					]
+				},
+				{
+					"id": 183,
+					"god": "zeus",
+					"type": "boon",
+					"name": "Clouded Judgment",
+					"description": "Your God Gauge charges faster when you deal or take damage.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Faster Gauge Gain", "value": "+10%" },
+						{ "rarity": "rare", "description": "Faster Gauge Gain", "value": "+12%" },
+						{ "rarity": "epic", "description": "Faster Gauge Gain", "value": "+14%" },
+						{ "rarity": "heroic", "description": "Faster Gauge Gain", "value": "+16%" }
+					],
+					"image": "Clouded_Judgment.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [5, 27, 49, 70, 92, 114, 152, 176]
+						}
+					]
+				},
+				{
+					"id": 184,
+					"god": "zeus",
+					"type": "boon",
+					"name": "Billowing Strength",
+					"description": "After using Call, you deal more damage for 15 Sec.",
+					"extraStats": [
+						{ "rarity": "common", "description": "Bonus Damage", "value": "+20%" },
+						{ "rarity": "rare", "description": "Bonus Damage", "value": "+22%" },
+						{ "rarity": "epic", "description": "Bonus Damage", "value": "+24%" },
+						{ "rarity": "heroic", "description": "Bonus Damage", "value": "+26%" }
+					],
+					"image": "Billowing_Strength.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [5, 27, 49, 70, 92, 114, 152, 176]
+						}
+					]
+				},
+				{
+					"id": 185,
+					"god": "zeus",
+					"type": "boon",
+					"name": "Splitting Bolt",
+					"description": "All your lightning effects create an additional burst.",
+					"extraStats": [{ "rarity": "Legendary", "description": "Lightning Damage", "value": "40" }],
+					"image": "Splitting_Bolt.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [180, 181, 179]
+						}
+					],
+					"legendary": true
+				}
+			]
+		},
+		"duo": {
+			"boons": [
+				{
+					"id": 186,
+					"type": "boon",
+					"name": "Smoldering Air",
+					"description": "Your Call charges up automatically, but is capped at 25%.",
+					"extraStats": [{ "rarity": "Duo", "description": "Auto Gauge Gain", "value": "1% every 0.2 seconds" }],
+					"image": "Smoldering_Air.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 0, 1, 2, 5]
+						},
+						{
+							"count": 1,
+							"ids": [171, 172, 175, 173, 176]
+						}
+					],
+					"duo": ["aphrodite", "zeus"]
+				},
+				{
+					"id": 187,
+					"type": "boon",
+					"name": "Vengeful Mood",
+					"description": "Your Revenge attacks sometimes occur without taking damage.",
+					"extraStats": [{ "rarity": "Duo", "description": "Auto-Revenge Rate", "value": "3 Sec." }],
+					"image": "Vengeful_Mood.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [27, 26, 22, 23, 24, 25]
+						},
+						{
+							"count": 1,
+							"ids": [174, 173, 171, 172, 175, 176]
+						},
+						{
+							"count": 1,
+							"ids": [177, 28, 93, 71, 7]
+						}
+					],
+					"duo": ["ares", "zeus"]
+				},
+				{
+					"id": 188,
+					"type": "boon",
+					"name": "Lightning Rod",
+					"description": "Your collectible  strike nearby foes with lightning every 1 Sec.",
+					"extraStats": [{ "rarity": "Duo", "description": "Lightning Damage", "value": "70" }],
+					"image": "Lightning_Rod.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [49, 45, 44, 48, 46, 47]
+						},
+						{
+							"count": 1,
+							"ids": [173, 174, 171, 172, 175, 176]
+						}
+					],
+					"duo": ["artemis", "zeus"]
+				},
+				{
+					"id": 189,
+					"type": "boon",
+					"name": "Lightning Phalanx",
+					"description": "Your Phalanx Shot Cast bounces between nearby foes.",
+					"extraStats": [{ "rarity": "Duo", "description": "Max Bounces", "value": "3" }],
+					"image": "Lightning_Phalanx.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [67]
+						},
+						{
+							"count": 1,
+							"ids": [171, 172, 175, 176]
+						}
+					],
+					"duo": ["athena", "zeus"]
+				},
+				{
+					"id": 190,
+					"type": "boon",
+					"name": "Cold Fusion",
+					"description": "Jolted status does not expire on your enemies' attacks.",
+					"extraStats": [{ "rarity": "Duo", "description": "Jolted duration", "value": "10 Sec." }],
+					"image": "Cold_Fusion.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [92, 87, 88, 91]
+						},
+						{
+							"count": 1,
+							"ids": [182]
+						}
+					],
+					"duo": ["demeter", "zeus"]
+				},
+				{
+					"id": 191,
+					"type": "boon",
+					"name": "Scintillating Feast",
+					"description": "Your Festive Fog effects also deal lightning damage periodically.",
+					"extraStats": [{ "rarity": "Duo", "description": "Lightning Damage", "value": "60" }],
+					"image": "Scintillating_Feast.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [111, 122]
+						},
+						{
+							"count": 1,
+							"ids": [171, 172, 173, 175, 176]
+						}
+					],
+					"duo": ["dionysus", "zeus"]
+				},
+				{
+					"id": 192,
+					"type": "boon",
+					"name": "Sea Storm",
+					"description": "Your knock-away effects also cause foes to be struck by lightning.",
+					"extraStats": [{ "rarity": "Duo", "description": "Lightning Damage", "value": "40" }],
+					"image": "Sea_Storm.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [149, 152, 147, 148, 151]
+						},
+						{
+							"count": 1,
+							"ids": [173, 171, 172, 175, 176]
+						}
+					],
+					"duo": ["poseidon", "zeus"]
+				},
+				{
+					"id": 15,
+					"type": "boon",
+					"name": "Curse of Longing",
+					"description": "Your Doom effects continuously strike Weak foes.",
+					"extraStats": [{ "rarity": "Duo", "description": "Successive Hit Damage", "value": "50%" }],
+					"image": "Curse_of_Longing.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 2, 0, 1]
+						},
+						{
+							"count": 1,
+							"ids": [22, 23]
+						}
+					],
+					"duo": ["ares", "aphrodite"]
+				},
+				{
+					"id": 16,
+					"type": "boon",
+					"name": "Heart Rend",
+					"description": "Your Critical effects deal even more damage to Weak foes.",
+					"extraStats": [{ "rarity": "Duo", "description": "Bonus Critical Damage vs. Weak", "value": "+150%" }],
+					"image": "Heart_Rend.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 2, 0, 1]
+						},
+						{
+							"count": 1,
+							"ids": [44, 45, 46]
+						}
+					],
+					"duo": ["artemis", "aphrodite"]
+				},
+				{
+					"id": 17,
+					"type": "boon",
+					"name": "Parting Shot",
+					"description": "Your Cast gains any bonuses you have for striking foes from behind.",
+					"extraStats": [{ "rarity": "Duo", "description": "Bonus Backstab Damage", "value": "+25%" }],
+					"image": "Parting_Shot.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 2, 0, 1, 5]
+						},
+						{
+							"count": 1,
+							"ids": [65, 67, 66, 69, 70]
+						}
+					],
+					"duo": ["athena", "aphrodite"]
+				},
+				{
+					"id": 18,
+					"type": "boon",
+					"name": "Cold Embrace",
+					"description": "Your Cast crystal fires its beam directly at you for 4 seconds.",
+					"extraStats": [{ "rarity": "Duo", "description": "Bonus Cast Damage", "value": "+30%" }],
+					"image": "Cold_Embrace.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 0, 1, 5]
+						},
+						{
+							"count": 1,
+							"ids": [89]
+						}
+					],
+					"duo": ["demeter", "aphrodite"]
+				},
+				{
+					"id": 19,
+					"type": "boon",
+					"name": "Low Tolerance",
+					"description": "Your Hangover effects stack even more times against Weak foes.",
+					"extraStats": [{ "rarity": "Duo", "description": "Bonus Hangover Stacks", "value": "3" }],
+					"image": "Low_Tolerance.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 0, 1, 2]
+						},
+						{
+							"count": 1,
+							"ids": [109, 110, 113, 114]
+						}
+					],
+					"duo": ["dionysus", "aphrodite"]
+				},
+				{
+					"id": 20,
+					"type": "boon",
+					"name": "Sweet Nectar",
+					"description": "Any Poms of Power you find are more effective.",
+					"extraStats": [{ "rarity": "Duo", "description": "Bonus Lv. from Poms", "value": "+1" }],
+					"image": "Sweet_Nectar.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [4, 0, 1, 2, 5]
+						},
+						{
+							"count": 1,
+							"ids": [147, 148, 149, 151, 152]
+						}
+					],
+					"duo": ["poseidon", "aphrodite"]
+				},
+				{
+					"id": 38,
+					"type": "boon",
+					"name": "Hunting Blades",
+					"description": "Your Cast creates a faster Blade Rift that seeks the nearest foe.",
+					"extraStats": [{ "rarity": "Duo", "description": "Seek Duration", "value": "3.3 Sec." }],
+					"image": "Hunting_Blades.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [24, 25]
+						},
+						{
+							"count": 1,
+							"ids": [44, 45, 48, 49]
+						}
+					],
+					"duo": ["artemis", "ares"]
+				},
+				{
+					"id": 39,
+					"type": "boon",
+					"name": "Merciful End",
+					"description": "Your attacks that can Deflect immediately activate Doom effects.",
+					"extraStats": [{ "rarity": "Duo", "description": "Doom Combo Damage", "value": "40" }],
+					"image": "Merciful_End.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [22, 23]
+						},
+						{
+							"count": 1,
+							"ids": [65, 66]
+						}
+					],
+					"duo": ["athena", "ares"]
+				},
+				{
+					"id": 40,
+					"type": "boon",
+					"name": "Freezing Vortex",
+					"description": "Your Cast inflicts Chill, but is smaller and moves slower.",
+					"extraStats": [{ "rarity": "Duo", "description": "Blade Rift size", "value": "-15%" }],
+					"image": "Freezing_Vortex.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [25, 24]
+						},
+						{
+							"count": 1,
+							"ids": [92, 87, 88, 91]
+						}
+					],
+					"duo": ["demeter", "ares"]
+				},
+				{
+					"id": 41,
+					"type": "boon",
+					"name": "Curse of Nausea",
+					"description": "Your Hangover effects deal damage faster.",
+					"extraStats": [{ "rarity": "Duo", "description": "Damage Rate", "value": "0.5 sec -> 0.35 sec" }],
+					"image": "Curse_of_Nausea.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [22, 23, 28]
+						},
+						{
+							"count": 1,
+							"ids": [114, 113, 110, 109]
+						}
+					],
+					"duo": ["dionysus", "ares"]
+				},
+				{
+					"id": 42,
+					"type": "boon",
+					"name": "Curse of Drowning",
+					"description": "Your Cast is a pulse that deals damage to foes around you.",
+					"extraStats": [{ "rarity": "Duo", "description": "Pulses per Cast", "value": "3" }],
+					"image": "Curse_of_Drowning.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [27, 26, 22, 23]
+						},
+						{
+							"count": 1,
+							"ids": [149]
+						}
+					],
+					"duo": ["poseidon", "ares"]
+				},
+				{
+					"id": 60,
+					"type": "boon",
+					"name": "Deadly Reversal",
+					"description": "After you Deflect, briefly gain +20% chance to deal Critical damage.",
+					"extraStats": [{ "rarity": "Duo", "description": "Critical Duration", "value": "2 Sec." }],
+					"image": "Deadly_Reversal.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [49, 45, 44, 47, 46]
+						},
+						{
+							"count": 1,
+							"ids": [65, 66]
+						}
+					],
+					"duo": ["athena", "artemis"]
+				},
+				{
+					"id": 61,
+					"type": "boon",
+					"name": "Crystal Clarity",
+					"description": "Your Cast is stronger and tracks foes more effectively.",
+					"extraStats": [{ "rarity": "Duo", "description": "Beam Damage", "value": "+10%" }],
+					"image": "Crystal_Clarity.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [49, 45, 44, 46]
+						},
+						{
+							"count": 1,
+							"ids": [89]
+						}
+					],
+					"duo": ["demeter", "artemis"]
+				},
+				{
+					"id": 62,
+					"type": "boon",
+					"name": "Splitting Headache",
+					"description": "Hangover-afflicted foes are more likely to take Critical damage.",
+					"extraStats": [{ "rarity": "Duo", "description": "Bonus Critical Chance per Hangover Stack", "value": "+1.5%" }],
+					"image": "Splitting_Headache.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [49, 45, 44, 46]
+						},
+						{
+							"count": 1,
+							"ids": [114, 113, 110, 109]
+						}
+					],
+					"duo": ["dionysus", "artemis"]
+				},
+				{
+					"id": 63,
+					"type": "boon",
+					"name": "Mirage Shot",
+					"description": "Your Cast fires a second projectile, though it has reduced damage.",
+					"extraStats": [{ "rarity": "Duo", "description": "Secondary Shot Damage", "value": "30%" }],
+					"image": "Mirage_Shot.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [49, 45, 44, 46, 47]
+						},
+						{
+							"count": 1,
+							"ids": [149, 152, 148, 147, 151]
+						}
+					],
+					"duo": ["poseidon", "artemis"]
+				},
+				{
+					"id": 83,
+					"type": "boon",
+					"name": "Stubborn Roots",
+					"description": "While you have no Death/Stubborn Defiance your {HEALTH} slowly recovers.",
+					"extraStats": [{ "rarity": "Duo", "description": "Life Regeneration", "value": "1 {HEALTH} (every 0.8 Sec.)" }],
+					"image": "Stubborn_Roots.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [65, 66, 67, 69, 71]
+						},
+						{
+							"count": 1,
+							"ids": [87, 88, 91, 89, 92]
+						}
+					],
+					"duo": ["demeter", "athena"]
+				},
+				{
+					"id": 84,
+					"type": "boon",
+					"name": "Calculated Risk",
+					"description": "Your foes' ranged-attack projectiles are slower.",
+					"extraStats": [{ "rarity": "Duo", "description": "Foe Projectile Speed Reduction", "value": "+50%" }],
+					"image": "Calculated_Risk.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [65, 66, 69, 70]
+						},
+						{
+							"count": 1,
+							"ids": [109, 110, 113, 114]
+						}
+					],
+					"duo": ["dionysus", "athena"]
+				},
+				{
+					"id": 85,
+					"type": "boon",
+					"name": "Unshakable Mettle",
+					"description": "You cannot be stunned, and resist some damage from Bosses.",
+					"extraStats": [{ "rarity": "Duo", "description": "Boss Damage Reduction", "value": "+10%" }],
+					"image": "Unshakable_Mettle.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [65, 66, 67, 69, 70]
+						},
+						{
+							"count": 1,
+							"ids": [147, 148, 151, 149, 152]
+						}
+					],
+					"duo": ["poseidon", "athena"]
+				},
+				{
+					"id": 106,
+					"type": "boon",
+					"name": "Ice Wine",
+					"description": "Your Cast blasts an area with freezing Festive Fog that inflicts Chill.",
+					"extraStats": [{ "rarity": "Duo", "description": "Blast Damage", "value": "+30%" }],
+					"image": "Ice_Wine.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [92, 87, 88, 91]
+						},
+						{
+							"count": 1,
+							"ids": [111]
+						}
+					],
+					"duo": ["dionysus", "demeter"]
+				},
+				{
+					"id": 107,
+					"type": "boon",
+					"name": "Blizzard Shot",
+					"description": "Your Cast moves slowly, piercing foes and firing shards around it.",
+					"extraStats": [{ "rarity": "Duo", "description": "Shard Damage", "value": "20" }],
+					"image": "Blizzard_Shot.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [92, 87, 88, 91]
+						},
+						{
+							"count": 1,
+							"ids": [149]
+						}
+					],
+					"duo": ["poseidon", "demeter"]
+				},
+				{
+					"id": 129,
+					"type": "boon",
+					"name": "Exclusive Access",
+					"description": "Any Boons you find have superior effects.",
+					"extraStats": [{ "rarity": "Duo", "description": "Minimum Boon Rarity", "value": "epic" }],
+					"image": "Exclusive_Access.png",
+					"prerequisites": [
+						{
+							"count": 1,
+							"ids": [109, 110, 111, 113, 114]
+						},
+						{
+							"count": 1,
+							"ids": [147, 148, 149, 151, 152]
+						}
+					],
+					"duo": ["poseidon", "dionysus"]
+				}
+			]
+		}
+	}
+}

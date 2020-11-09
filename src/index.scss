@@ -1,0 +1,528 @@
+$color-bg-common: rgba(0, 0, 0, 0);
+$color-bg-boon: rgba(0, 0, 0, 1);
+$color-bg-rare: rgb(2, 71, 129);
+$color-bg-epic: rgb(80, 11, 129);
+$color-bg-heroic: rgb(126, 50, 46);
+$color-bg-duo: rgb(107, 129, 50);
+$color-bg-legendary: rgb(129, 74, 2);
+
+$color-text-common: rgb(255, 255, 250);
+$color-text-rare: rgb(0, 138, 255);
+$color-text-epic: rgb(157, 18, 255);
+$color-text-heroic: #f86059;
+$color-text-legendary: rgb(255, 144, 0);
+$color-text-duo: rgb(210, 255, 91);
+$boon-width: 800px;
+
+// ******
+// GLOBAL
+// ******
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: clamp(9px, 0.85vw, 16px);
+}
+
+body {
+	margin: 0;
+	font-family: Alegreya Sans SC;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	user-select: none;
+	background-color: black;
+	background-image: url('./assets/background.webp');
+}
+
+h1,
+h2 {
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	color: white;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 120px 1fr 10px 1fr 120px;
+	grid-template-rows: 82px minmax(0, calc(100vh - 87px));
+	grid-template-areas:
+		'title title title title title'
+		'. list . selector .';
+}
+
+.title {
+	grid-area: title;
+}
+
+// ***********
+//    CARD
+// ***********
+
+.card {
+	display: flex;
+	flex-flow: column;
+	border: 1px solid rgb(85, 85, 85);
+	border-radius: 5px;
+	background-color: rgb(22, 22, 22);
+	overflow: hidden;
+}
+
+.card-title-container {
+	display: grid;
+	grid-template-columns: 2rem 1fr 2rem;
+	grid-template-rows: minmax(1rem, 1fr) minmax(1fr, 0);
+	grid-template-areas: 'collapse title .' 'additional-content additional-content additional-content';
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	color: white;
+	font-size: 1.8rem;
+	font-weight: 700;
+	border-bottom: 1px solid rgb(85, 85, 85);
+	& > .card-title {
+		grid-area: title;
+		padding: 0.5em 0 0.5em 0;
+	}
+}
+
+.card-btn-collapse {
+	grid-area: collapse;
+	align-items: center;
+	justify-content: center;
+	color: rgb(154, 154, 154);
+	font-size: 2rem;
+	text-shadow: none;
+	display: none;
+	&::before {
+		content: '\02C5';
+	}
+	&:hover {
+		color: rgb(255, 255, 255);
+	}
+}
+.card-btn-collapse.collapsed::before {
+	content: '\02C3';
+}
+
+.card-additional-content {
+	grid-area: additional-content;
+	border-top: 1px solid rgb(85, 85, 85);
+}
+
+.card-content {
+	padding: 0.2em;
+	overflow: auto;
+}
+
+// ***********
+// BOON STYLES
+// ***********
+
+.boon {
+	border: 2px solid rgb(181, 135, 55);
+	height: 7.75rem;
+	width: 100%;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	margin: 0px 5px 5px 0px;
+	background-color: $color-bg-boon;
+	color: white;
+	position: relative;
+	cursor: pointer;
+
+	& > .disabled {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: 2;
+		pointer-events: none;
+	}
+}
+
+.boon-icon {
+	margin: 10px 0px 10px 20px;
+	z-index: 1;
+	filter: drop-shadow(0px 0px 8px lightgrey);
+	width: clamp(50px, 6.25rem, 100px);
+	height: clamp(50px, 6.25rem, 100px);
+	margin: 10px 0px 10px 10px;
+	& > .boon-icon-image {
+		width: clamp(50px, 6.25rem, 100px);
+		height: clamp(50px, 6.25rem, 100px);
+	}
+}
+
+.boon-icon-bg {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	margin-top: 1rem;
+	border-right: 10rem solid transparent;
+	border-bottom: 6.44rem solid $color-bg-common;
+	float: right;
+
+	&.common {
+		border-bottom-color: $color-bg-common;
+	}
+	&.rare {
+		border-bottom-color: $color-bg-rare;
+	}
+	&.epic {
+		border-bottom-color: $color-bg-epic;
+	}
+	&.heroic {
+		border-bottom-color: $color-bg-heroic;
+	}
+	&.legendary {
+		border-bottom-color: $color-bg-legendary;
+	}
+	&.duo {
+		border-bottom-color: $color-bg-duo;
+	}
+}
+
+.boon-stats {
+	text-align: left;
+	margin-left: 3.2em;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: minmax(0%, 65%) minmax(0%, 10%) minmax(0%, 1fr) minmax(0, 25px) minmax(0, 25px);
+	grid-template-rows: 20% 20% 20% 40%;
+	grid-template-areas:
+		'name level rarity switcher1 remove-icon'
+		'name level rarity switcher2 remove-icon'
+		'description description description description description'
+		'extrastat value value value value';
+
+	& > .boon-name,
+	& > .boon-rarity {
+		font-size: 1.5rem;
+		color: $color-text-rare;
+		display: flex;
+		align-items: center;
+	}
+
+	& > .boon-rarity {
+		grid-area: rarity;
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	& > .rarity-text {
+		&.common {
+			color: $color-text-common;
+		}
+		&.rare {
+			color: $color-text-rare;
+		}
+		&.epic {
+			color: $color-text-epic;
+		}
+		&.heroic {
+			color: $color-text-heroic;
+		}
+		&.legendary {
+			color: $color-text-legendary;
+		}
+		&.duo {
+			color: $color-text-duo;
+		}
+	}
+
+	& > .switcher1 {
+		grid-area: switcher1;
+		color: rgb(154, 154, 154);
+		&:hover {
+			color: rgb(255, 255, 255);
+		}
+	}
+	& > .switcher2 {
+		grid-area: switcher2;
+		color: rgb(154, 154, 154);
+		&:hover {
+			color: rgb(255, 255, 255);
+		}
+	}
+	& > .switcher1,
+	& > .switcher2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	& .rarity-prev-icon {
+		width: 0px;
+		height: 0px;
+		border-top: 0.7rem solid;
+		border-right: 0.7rem solid transparent;
+		border-left: 0.7rem solid transparent;
+	}
+	& .rarity-next-icon {
+		width: 0px;
+		height: 0px;
+		border-bottom: 0.7rem solid;
+		border-left: 0.7rem solid transparent;
+		border-right: 0.7rem solid transparent;
+	}
+
+	& > .boon-name {
+		grid-area: name;
+		font-weight: 400;
+		& > .prerequisites-trigger {
+			font-size: 2.5rem;
+			margin-left: 0.5em;
+			display: flex;
+			justify-content: center;
+			width: 1.2em;
+		}
+
+		&.common {
+			color: $color-text-common;
+		}
+		&.rare {
+			color: $color-text-rare;
+		}
+		&.epic {
+			color: $color-text-epic;
+		}
+		&.heroic {
+			color: $color-text-heroic;
+		}
+		&.legendary {
+			color: $color-text-legendary;
+		}
+		&.duo {
+			color: $color-text-duo;
+		}
+	}
+}
+
+.boon-icon-remove {
+	grid-area: remove-icon;
+	display: flex;
+	align-items: top;
+	justify-content: center;
+	color: rgb(154, 154, 154);
+
+	&::before {
+		content: '\2716';
+		font-size: 1.5rem;
+	}
+	&:hover::before {
+		color: red;
+	}
+}
+
+.boon-description {
+	color: rgb(154, 154, 154);
+	font-size: 1.1rem;
+	display: flex;
+	align-items: center;
+	grid-area: description;
+}
+
+.boon-extra-stats-description {
+	grid-area: extrastat;
+	font-size: 1.1rem;
+	color: rgb(211, 211, 211);
+	display: flex;
+	align-items: flex-start;
+
+	&:before {
+		content: '';
+		width: 0px;
+		height: 0px;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		border-left: 5px solid;
+		margin-right: 0.3em;
+	}
+
+	&:after {
+		content: ':';
+	}
+}
+
+.boon-extra-stats-value {
+	grid-area: value;
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: rgb(115, 199, 69);
+	display: flex;
+	align-items: flex-start;
+}
+
+// ******************
+// BOON PREREQUISITES
+// ******************
+
+.boon-prerequisites {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: left;
+	background-color: #121212;
+	position: fixed;
+	opacity: 0;
+	scale: 1 0;
+	padding: 10px;
+	transition: opacity ease-out 150ms;
+	border: 2px solid rgb(181, 135, 55);
+	border-radius: 5px;
+	z-index: 3;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+
+	top: var(--y);
+	left: var(--x);
+
+	&.visible {
+		opacity: 1;
+		scale: 1 1;
+	}
+}
+.prerequisites-section {
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 1;
+	padding: 0.2em;
+}
+
+.prerequisites-section > h2 {
+	font-size: 1rem;
+	margin-top: 0;
+	margin-left: 0.32em;
+}
+
+.prerequisites-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 1fr);
+	align-items: center;
+	row-gap: 0.4em;
+}
+
+.prerequisites-grid div {
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+}
+
+.prerequisites-grid img {
+	width: 20px;
+	height: 20px;
+}
+
+.text-icon {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+// *********
+// BOON LIST
+// *********
+
+.boon-list {
+	grid-area: list;
+}
+
+// *************
+// BOON SELECTOR
+// *************
+
+.boon-selector {
+	grid-area: selector;
+}
+
+.boon-selector-boons {
+	display: flex;
+	justify-content: stretch;
+	width: 100%;
+}
+
+.boon-selector-tabs {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.boon-selector-tab {
+	width: 100%;
+}
+
+.god-tab {
+	display: flex;
+	font-size: 1rem;
+	flex-grow: 1;
+	background-color: unset;
+	cursor: pointer;
+	position: relative;
+	border: none;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding: 0.2em 0 0.2em 0;
+
+	&:focus {
+		outline: none;
+	}
+
+	&:hover::after,
+	&:focus::after,
+	&.active::after {
+		content: '';
+		position: absolute;
+		width: 80%;
+		max-width: 10em;
+		height: 4px;
+		border-radius: 5px;
+		background-color: rgb(167, 167, 167);
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+.god-tab-icon {
+	width: clamp(24px, 3rem, 48px);
+	height: clamp(24px, 3rem, 48px);
+}
+
+// *************
+// MEDIA QUERIES
+// *************
+
+@media only screen and (max-width: 1720px) {
+	.content {
+		grid-template-columns: 5px 1fr 5px 1fr 5px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.content {
+		display: flex;
+		flex-flow: column;
+		height: calc(100vh - 6.5rem);
+		& > .card {
+			flex-shrink: 1;
+		}
+	}
+	.boon-list {
+		height: clamp(50%, 100%, 100%);
+	}
+	.boon-selector {
+		max-height: 50%;
+	}
+	.card-btn-collapse {
+		display: flex;
+	}
+
+	h1 {
+		display: none;
+	}
+}
